@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/com.summer.app.wuteai"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:id="@+id/parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/rl_tab"
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" >
+          <com.summer.app.wuteai.view.PagerSlidingTabStrip
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            app:pstsIndicatorColor="#ff4551"
+            app:pstsUnderlineHeight="1dip" />
+    </RelativeLayout>
+            <com.summer.app.wuteai.view.CustomerViewPager
+                android:layout_below="@id/rl_tab" 
+                android:id="@+id/content_pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+</RelativeLayout>

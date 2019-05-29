@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="tran_white">#88ffffff</color>
+    <color name="red_la">#D95555</color>
+    <color name="red_lb">#C94949</color>
+    <color name="black_db">#565656</color>
+    <color name="black_da">#9D9C9C</color>
+    <color name="active_dot_co">#787878</color>
+    <color name="inactive_dot_co">#C1C1C1</color>
+    <color name="black_lb">#ddd</color>
+    <color name="yellow">#c66f35</color>
+    <color name="tran_black_55">#33000000</color>
+    <color name="background_ca">#272923</color>
+    <color name="background_press">#1E1F1B</color>
+    <color name="meiju_item_bg">#383935</color>
+    <color name="tran_red_la">#99D95555</color>
+    <color name="diver_color">#E6E5E3</color>
+</resources>
