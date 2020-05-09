@@ -1,8 +1,6 @@
 package com.summer.asozora.livedoor;
 
-import cn.bmob.v3.BmobObject;
-
-public class Shuadianji extends BmobObject {
+public class Shuadianji {
 	
 	private String url;
 

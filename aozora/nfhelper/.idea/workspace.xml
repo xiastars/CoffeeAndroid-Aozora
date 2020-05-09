@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="502fab41-3eaf-489c-beb0-9739b204a088" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/BaseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/BaseApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/activity/ChooseTrainingActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/activity/ChooseTrainingActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/activity/ChooseVideoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/activity/ChooseVideoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/activity/PulseStrengthActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/activity/PulseStrengthActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/activity/StartVideoSequenceActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/activity/StartVideoSequenceActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/activity/StartingTreatActivityOld.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/activity/StartingTreatActivityOld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/adapter/SchemeManualAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/adapter/SchemeManualAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/adapter/SchemeVideoAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/adapter/SchemeVideoAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/adapter/SettingAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/adapter/SettingAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/adapter/UserExpandAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/adapter/UserExpandAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/bluetooth/BluetoothHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/bluetooth/BluetoothHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/dialog/DeviceConnectDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/dialog/DeviceConnectDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/dialog/DeviceGroupConnectDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/dialog/DeviceGroupConnectDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/dialog/DialogModifyContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/dialog/DialogModifyContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/dialog/DialogTestIntensity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/dialog/DialogTestIntensity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/widget/AddPopWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/widget/AddPopWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/widget/UserItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/cn/blemed/ems/widget/UserItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_contact.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_contact.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_select_video.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_select_video.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_webview_container.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_webview_container.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/dialog_test_intensity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/dialog_test_intensity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/values-it/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/values-it/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/values-ko-rKR/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/values-ko-rKR/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/values-zh/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/values-zh/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dfu/src/main/java/no/nordicsemi/android/dfu/DfuBaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dfu/src/main/java/no/nordicsemi/android/dfu/DfuBaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/balanx/nfhelper/dialog/BaseDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/balanx/nfhelper/dialog/BaseDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/balanx/nfhelper/utils/BitmapUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/balanx/nfhelper/utils/BitmapUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/balanx/nfhelper/utils/SViewUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/balanx/nfhelper/utils/SViewUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_webview.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_webview.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="526" />
+    <option name="y" value="130" />
+    <option name="width" value="1936" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="D:/software/android_sdk/sdk" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="502fab41-3eaf-489c-beb0-9739b204a088" name="Default Changelist" comment="" />
+      <created>1575013963087</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575013963087</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.3299356" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Build Variants" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
+      <window_info anchor="bottom" id="Build" visible="true" weight="0.3295063" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Flutter Inspector" />
+      <window_info anchor="right" id="Flutter Outline" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+</project>

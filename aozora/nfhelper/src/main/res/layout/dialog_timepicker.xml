@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/so_white5">
+        <LinearLayout
+                android:id="@+id/ll_picker"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:orientation="vertical">
+            <com.balanx.nfhelper.view.SDatePicker
+                    android:id="@+id/datePicker"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <View
+                android:id="@+id/divider1"
+                android:background="#44000000"
+                android:layout_below="@id/ll_picker"
+                android:layout_height="0.5dp"
+                android:layout_width="match_parent"/>
+
+        <LinearLayout
+                android:layout_below="@id/divider1"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="50dp">
+            <TextView
+                    android:id="@+id/tv_cancel"
+                    android:layout_width="0px"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="@color/grey_93"
+                    android:text="@string/cancel_dialog"/>
+            <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#cccccc"></View>
+            <TextView
+                    android:id="@+id/tv_sure"
+                    android:layout_width="0px"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:textSize="14sp"
+                    android:textColor="@color/grey_4a"
+                    android:text="@string/submit"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

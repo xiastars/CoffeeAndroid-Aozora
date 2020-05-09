@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-   <GridView
+   <com.balanx.nfhelper.view.NRecycleView
         android:id="@+id/gv_sort"
         android:layout_width="match_parent"
         android:horizontalSpacing="0.5dp"

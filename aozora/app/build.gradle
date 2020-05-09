@@ -16,13 +16,28 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    //设置资源文件夹路径
+    sourceSets.main {
+        res.srcDirs =
+                [
+                        'src/main/res/',
+                        'src/main/res/res-base',
+                ]
+    }
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation project(':nfhelper')
+    //注解
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    implementation 'com.android.support:recyclerview-v7:27.+'
+    implementation 'org.jsoup:jsoup:1.13.1'
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     testImplementation 'junit:junit:4.12'
+    implementation 'com.alibaba:fastjson:1.2.8'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }

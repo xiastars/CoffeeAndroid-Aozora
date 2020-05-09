@@ -1,17 +1,8 @@
 package com.summer.app.wuteai.adapter;
 
-import java.util.List;
-
-import com.bumptech.glide.Glide;
-import com.ferris.browser.MainActivity;
-import com.summer.app.wuteai.entity.UrlInfo;
-import com.summer.app.wuteai.utils.JumpTo;
-import com.summer.asozora.livedoor.R;
-import com.summer.asozora.livedoor.SortItemActivity;
-import com.summer.db.CommonService;
-
 import android.content.Context;
 import android.os.Handler;
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
@@ -19,7 +10,18 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-public class HistoryAdapter  extends BaseViewAdapter{
+import com.balanx.nfhelper.adapter.SRecycleMoreAdapter;
+import com.balanx.nfhelper.db.CommonService;
+import com.balanx.nfhelper.utils.SUtils;
+import com.summer.app.wuteai.entity.UrlInfo;
+import com.summer.app.wuteai.utils.JumpTo;
+import com.summer.asozora.livedoor.MainActivity;
+import com.summer.asozora.livedoor.R;
+import com.summer.asozora.livedoor.SortItemActivity;
+
+import java.util.List;
+
+public class HistoryAdapter  extends SRecycleMoreAdapter {
 	private Context context;
 	private List<UrlInfo> sortList;
 	private ViewHolder viewHodler;
@@ -27,48 +29,9 @@ public class HistoryAdapter  extends BaseViewAdapter{
 //	wo1没有 nn1没有
 	public HistoryAdapter(Context context){
 		super(context);
-		this.context = context;
 		mService = new CommonService(context);
 	}
 
-	@Override
-	public int getCount() {
-		return sortList != null ?  sortList.size() : 0;
-	}
-
-	@Override
-	public Object getItem(int position) {
-		return sortList.get(position);
-	}
-
-	@Override
-	public long getItemId(int position) {
-		return position;
-	}
-
-	@Override
-	public View getView(final int position, View convertView, ViewGroup parent) {
-		if (convertView == null) {
-			convertView = getInflaterView(R.layout.item_sort2);
-			viewHodler = getViewHolder(convertView);
-			convertView.setTag(viewHodler);
-		} else {
-			viewHodler = (ViewHolder) convertView.getTag();
-		}
-		if(sortList != null){
-            final UrlInfo url = sortList.get(position);
-            Glide.with(context).load(url.getStringLogo()).into(viewHodler.ivIcon);
-			viewHodler.tvName.setText(url.getName());
-			viewHodler.rlParentLayout.setOnClickListener(new OnClickListener() {
-				
-				@Override
-				public void onClick(View v) {
-					JumpTo.getInstance().commonJump(context, MainActivity.class,url);					
-				}
-			});
-		}
-		return convertView;
-	}
 	
 	private Handler mHandler = new Handler(){
 		public void handleMessage(android.os.Message msg) {
@@ -99,5 +62,26 @@ public class HistoryAdapter  extends BaseViewAdapter{
 		this.sortList = (List<UrlInfo>) arrsList;
 		notifyDataSetChanged();
 		
+	}
+
+
+	@Override
+	public RecyclerView.ViewHolder setContentView(ViewGroup parent) {
+		return new SortItemAdapter.ViewHolder(createHolderView(R.layout.item_sort2, null));
+	}
+
+	@Override
+	public void bindContentView(RecyclerView.ViewHolder holder, int position) {
+			final UrlInfo url = sortList.get(position);
+			SUtils.setPic(viewHodler.ivIcon,url.getStringLogo());
+			viewHodler.tvName.setText(url.getName());
+			viewHodler.rlParentLayout.setOnClickListener(new OnClickListener() {
+
+				@Override
+				public void onClick(View v) {
+					JumpTo.getInstance().commonJump(context, MainActivity.class,url);
+				}
+			});
+
 	}
 }

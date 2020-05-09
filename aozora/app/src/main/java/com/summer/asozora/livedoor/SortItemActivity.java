@@ -1,21 +1,21 @@
 package com.summer.asozora.livedoor;
 
-import java.util.List;
-
-import com.summer.app.wuteai.adapter.SortItemAdapter;
-import com.summer.app.wuteai.entity.UrlInfo;
-import com.summer.app.wuteai.utils.JumpTo;
-import com.summer.app.wuteai.utils.SUtils;
-
 import android.app.Activity;
 import android.content.Context;
 import android.os.Build.VERSION;
 import android.os.Bundle;
-import android.widget.ListView;
 import android.widget.RelativeLayout;
 
+import com.balanx.nfhelper.utils.SUtils;
+import com.balanx.nfhelper.view.NRecycleView;
+import com.summer.app.wuteai.adapter.SortItemAdapter;
+import com.summer.app.wuteai.entity.UrlInfo;
+import com.summer.app.wuteai.utils.JumpTo;
+
+import java.util.List;
+
 public class SortItemActivity extends Activity {
-	ListView mGridView;
+	NRecycleView mGridView;
 	
 	private SortItemAdapter mAdapter;
 	private Context context;
@@ -29,7 +29,8 @@ public class SortItemActivity extends Activity {
 	}
 
 	private void initView() {
-		mGridView = (ListView) findViewById(R.id.gv_sort);
+		mGridView = (NRecycleView) findViewById(R.id.gv_sort);
+		mGridView.setGridView(3);
 		RelativeLayout.LayoutParams clp = ( RelativeLayout.LayoutParams) mGridView.getLayoutParams();
 		if(VERSION.SDK_INT >= 19){			  
 		    clp.topMargin = SUtils.getStatusBarHeight(this);

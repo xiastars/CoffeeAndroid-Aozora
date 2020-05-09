@@ -1,15 +1,11 @@
 package com.summer.app.wuteai.entity;
 
-import cn.bmob.v3.BmobObject;
-import cn.bmob.v3.datatype.BmobFile;
-
-public class UrlInfo extends BmobObject{
+public class UrlInfo{
 
 	private static final long serialVersionUID = 1L;
 		
 	String url;
 	String name;
-	BmobFile logo;
 	String stringLogo;
 	String time;
 	private String content;
@@ -43,12 +39,6 @@ public class UrlInfo extends BmobObject{
 	}
 	public void setName(String name) {
 		this.name = name;
-	}
-	public BmobFile getLogo() {
-		return logo;
-	}
-	public void setLogo(BmobFile logo) {
-		this.logo = logo;
 	}
 	
 

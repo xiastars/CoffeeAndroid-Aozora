@@ -3,8 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-   <com.handmark.pulltorefresh.library.PullToRefreshListView
-        android:id="@+id/gv_sort"
+   <com.balanx.nfhelper.view.SmartRecyclerView
+        android:id="@+id/nv_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 

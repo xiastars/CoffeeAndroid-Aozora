@@ -1,0 +1,68 @@
+package com.summer.asozora.livedoor.utils;
+
+import android.app.Activity;
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
+
+import com.balanx.nfhelper.utils.Logs;
+
+public class ReceiverUtils {
+	private Activity activity;
+	private HomeKeyEventBroadCastReceiver receiver;
+	private String[] actions;
+	private ReceiverListener listener;
+	
+	public ReceiverUtils(Activity activity){
+		this.activity = activity;
+	}
+	
+	public void setActionsAndRegister(String...strings){
+		this.actions = strings;
+		registerReceiver();
+	}
+	
+	public void setOnReceiverListener(ReceiverListener listener){
+		this.listener = listener;
+	}
+	
+	/**
+	 * 注册Home按键广播
+	 */
+	private void registerReceiver() {
+		if(receiver != null)return;
+		receiver = new HomeKeyEventBroadCastReceiver();
+		IntentFilter filter = new IntentFilter();
+		for(int i = 0;i < actions.length;i++){
+			filter.addAction(actions[i]);
+		}
+		activity.registerReceiver(receiver, filter);
+	}
+
+	public void unRegisterReceiver() {
+		if (receiver != null) {
+			activity.unregisterReceiver(receiver);
+			receiver = null;
+		}
+	}
+
+	class HomeKeyEventBroadCastReceiver extends BroadcastReceiver {
+		
+		@Override
+		public void onReceive(Context context, Intent intent) {
+			String action = intent.getAction();
+			Logs.i("广播:"+activity+"action:"+action);
+			for(int i = 0;i< actions.length;i++){
+				if(action.equals(actions[i])){
+					listener.doSomething(actions[i],intent);
+				}
+			}
+		}
+	}
+	
+	public interface ReceiverListener{
+		void doSomething(String action, Intent intent);
+	}
+
+}

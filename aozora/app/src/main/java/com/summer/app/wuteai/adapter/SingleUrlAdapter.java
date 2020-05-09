@@ -1,21 +1,5 @@
 package com.summer.app.wuteai.adapter;
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
-
-import com.summer.app.wuteai.entity.UrlInfo;
-import com.summer.app.wuteai.utils.JumpTo;
-import com.summer.asozora.livedoor.R;
-import com.summer.asozora.livedoor.SortItemActivity;
-import com.summer.db.CommonService;
-import com.summer.db.CommonType;
-
 import android.content.Context;
 import android.os.Handler;
 import android.util.Log;
@@ -24,6 +8,22 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import com.balanx.nfhelper.db.CommonService;
+import com.summer.app.wuteai.entity.UrlInfo;
+import com.summer.app.wuteai.utils.JumpTo;
+import com.summer.asozora.livedoor.R;
+import com.summer.asozora.livedoor.SortItemActivity;
+import com.summer.resp.CommonType;
+
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class SingleUrlAdapter  extends BaseViewAdapter{
 	private Context context;

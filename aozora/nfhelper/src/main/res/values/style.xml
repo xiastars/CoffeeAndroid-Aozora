@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 垂直的一条线 -->
+    <style name="line_vertical">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:background">@color/grey_f3</item>
+    </style>
+
+    <!-- 垂直的一条线 -->
+    <style name="line_vertical_c8">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:background">@color/grey_c8</item>
+    </style>
+    <!-- 平行的一条线 -->
+    <style name="line_horizontal">
+        <item name="android:layout_height">0.5dip</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/grey_f3</item>
+    </style>
+
+    <style name="line_horizontal_f1">
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/grey_f3</item>
+    </style>
+
+    <style name="line_horizontal_c8">
+        <item name="android:layout_height">0.5dip</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/grey_c8</item>
+    </style>
+
+    <style name="TagFullScreenDialog" parent="Theme">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/white</item>
+        <!-- 初始状态栏颜色 -->
+        <item name="colorPrimaryDark">@color/half_greye1</item>
+        <item name="colorAccent">@color/green_4b</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- <item name="android:windowAnimationStyle">@style/windowAnimation</item> -->
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="AiTheme" parent="android:Theme">
+
+        <!-- <item name="numberPickerInputTextStyle">@style/AiWidget.EditText.NumberPickerInputText</item> -->
+        <item name="numberPickerStyle">@style/AiWidget.NumberPicker</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/so_greyf5_12"
+        android:minHeight="120dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_top"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:minHeight="40dp"
+            android:textColor="@color/grey_0f"
+            android:textSize="16sp" />
+
+        <View
+            android:id="@+id/view_line"
+            style="@style/line_horizontal_c8"
+            android:layout_alignTop="@+id/ll_bottom"
+            android:background="@color/grey_da" />
+
+        <LinearLayout
+            android:id="@+id/ll_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_below="@id/tv_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tips_ok_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/sure"
+                android:textColor="@color/yellow_ff9"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
